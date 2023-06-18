@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+     *{
+	   margin:0px;
+	   }
+
+     #id1{
+	       display:flex;
+		   background:linear-gradient(to bottom,orange,white,white,white,green);
+          }
+		  img{
+	
+			transition: transform 7s;
+		}
+		img:hover{
+			transform:rotate(360deg);
+		}	 
+	</style>
+ </head>
+  <body>
+  <div id="id1">
+    <div style="width:700px;height:300px; margin:150px 150px;" align="center"><br><br><br><br><br>
+	 <h1>ACE Online Voting System</h1><br>
+	 <img src="D:/ace.jpg" style="width:200; height:200px;">
+    </div>
+     <div style="background:linear-gradient(to bottom,#ff6600,#ffff00);width:450px;height:665px;">
+	 <div>
+	  <form style="background-color:black; color:white; width:210px; height:210px;margin:250px 130px 250px 130px; padding:38px 0px 0px 10px; border-radius:4px;">
+	   <label style="font-size:20px;">Adhar Number</label><span style="color:red;">*</span><br>
+	   <input type="number" id="an" name="an" style="width:180px; height:30px;" maxlength="12" placeholder="Enter Adhar Number" required autofocus/><br><br>
+	   <label style="font-size:20px;">Password</label><span style="color:red;">*</span><br>
+	   <input type="password" id="an" name="an" style="width:180px; height:30px;" maxlength="12" placeholder="Enter Password" required/><br><br>
+       <button style="background-color:blue;                color:white; width:70px; height:40px; border:none; border-radius:5px;"><h3>Login</h3></button>
+	   </form>
+	  </div>
+    </div>
+</div>
+</body>
+</html>
