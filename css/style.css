@@ -1,0 +1,136 @@
+ body{
+       background-color:black;
+	  }
+ h5{   
+       
+       color:white;
+	   text-align:center;
+	   text-shadow:2px 2px;
+	   font-size:6vw;
+	  }
+ 
+ #id1{
+		text-align:center;
+	    font-size:30px;
+	    width:240px;
+	    height:50px;
+		border-radius:20px;
+		background-color:blue;
+		color:white;
+		padding:2px;
+		margin:auto;
+		outline:none;
+		border:none;
+		}
+  #id1:hover{
+	              background-color:white;
+				  }
+ 
+  .class1{
+	      background-image:url("https://cutewallpaper.org/21/it-background-images/it-background-5-Habilelabs.jpg");
+		  background-size:100% auto;
+		  width:100%;
+		  height:auto;
+		  }
+
+  .class1{
+          opacity:0.8;
+		  }
+
+  .class1:hover{
+          opacity:1.0;
+		  }
+
+ #id2{
+            display:grid;
+            color:white;
+			background-color:black;
+            width:330px;
+			height:330px;
+	        font-size:2vw;
+			display:block;
+			padding:10px;
+			text-align:center;
+			border-radius:15px;
+			border:thick solid blue;
+			display:table-cell;
+			grid-template-columns:auto auto auto;
+			margin-top:50px;
+			margin-left:65px;
+			margin-right:65px;
+	   }
+											
+   #id2:hover{
+	              background-color:green;
+				  }
+
+ #id3{
+       width:100px;
+	   height:100px;
+	   }
+
+  #id4{
+        color:white;
+		width:95%; 
+		height:100%;
+		font-size:2vw;
+	    padding:10px;
+		text-align:justify;
+		margin-left:15px;
+		border:thin dotted red;
+		border-radius:15px;
+		}
+
+   #id4:hover{
+	              background-color:skyblue;
+				  }
+   h3{
+       font-size:2.5vw;
+	   }
+
+  #id5{
+        color:white;
+		width:95%; 
+		height:100%;
+		font-size:2vw;
+	    padding:10px;
+		text-align:justify;
+		margin-left:15px;
+		}
+
+  .class2{
+	      background-image:url("https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg");
+		  background-size:100% auto;
+		  width:90%;
+		  height:48vw;
+		  margin:auto;
+		  border-radius:25px;
+		  }
+	#id6{
+            display:grid;
+            color:white;
+			background-color:black;
+            width:330px;
+			height:330px;
+	        font-size:2vw;
+			display:block;
+			padding:10px;
+			text-align:center;
+			border-radius:15px;
+			border:thick solid green;
+			display:table-cell;
+			grid-template-columns:auto auto auto;
+			margin-top:50px;
+			margin-left:20px;
+			margin-right:20px;
+	   }
+											
+   #id6:hover{
+	              background-color:blue;
+				  }
+
+	label{
+	        color:white;
+			}
+	
+ 
