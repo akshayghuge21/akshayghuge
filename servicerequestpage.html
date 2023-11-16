@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style>
+      body{
+	        background-color:#cccccc;
+			}
+      span{
+	        color:red;
+			}
+	  .div{
+	          background-color:white;
+			  }
+	   input{
+	            outline:none;
+	          	border:none;
+			    border-bottom:1px solid #dbdbdb;
+				}
+	   div{
+	        width:350px;
+			height:auto;
+			border-radius:5px;
+			margin:auto;
+			padding:20px;
+			}
+  </style>
+ </head>
+  <body>
+   <div>
+    <form>
+	   <div class="div"style="width:350px; height:145px; border-top:8px solid #6600cc;">
+	      <h2>TALWAR SERVICE</h2>
+          <p>SERVICE REQUEST</p>
+		  <hr><br>
+		  <span>*Required</span>
+	   </div>
+	      <br>
+	    <div class="div">
+		   <label>NAME</label><span>*</span>
+           <br><br>
+		   <input type="text" id="name" name="name" placeholder="Your answer" required autofocus>
+		</div>
+		   <br>
+	     <div class="div">
+		   <label>MOBILE NUMBER</label><span>*</span>
+           <br><br>
+		   <input type="number" id="mn" name="mn" placeholder="Your answer" required>
+	    </div>
+		   <br>
+        <div class="div">
+		   <label>ALTERNATE NUMBER</label><span>*</span>
+           <br><br>
+		   <input type="number" id="an" name="an" placeholder="Your answer" required>
+	    </div>
+		   <br>
+		<div class="div">
+		   <label>VEHICLE NUMBER</label><span>*</span>
+           <br><br>
+		   <input type="number" id="vn" name="vn" placeholder="Your answer" required>
+	    </div>
+		   <br>
+		<div class="div">
+		   <label>VEHICLE MODEL(SANTRO/10 ETC)</label><span>*</span>
+           <br><br>
+		   <input type="text" id="vm" name="vm" placeholder="Your answer" required>
+	    </div>
+		    <br>
+		<div class="div">
+		   <label>APPOINTMENT DATE</label><span>*</span>
+           <br><br>
+		   <input type="date" id="ad" name="ad" required>
+	    </div>
+		   <br>
+		<div class="div">
+		   <label>PICKUP/APPOINTMENT</label><span>*</span>
+           <br><br>
+		   <input type="radio" id="pa1" name="pa" value="1">
+		     <label>NEED PICK-UP</label><br>
+		   <input type="radio" id="pa2" name="pa" value="2">
+		     <label>NEED APPOINTMENT</label><br>
+		   <input type="radio" id="pa3" name="pa" value="3">
+		     <label>NEED TO SEND BREAK-DOWN</label>
+	    </div>
+		   <br>
+         <div class="div">
+		    <label>WORKSHOP LOCATION</label>
+			<br><br>
+			<input type="radio" id="wl" name="pa1" value="4">
+		     <label>TABBUND</label><br>
+			<input type="radio" id="wl2" name="pa1" value="5">
+		     <label>TIRUMALGIRI-KANAJIGUDA</label>
+		</div>
+		    <br>
+		 <div class="div">
+		   <label>ADDRESS FOR PICKUP</label><span>*</span>
+           <br><br>
+		   <input type="text" id="afp" name="afp" placeholder="Your answer" required>
+	    </div>
+		   <br>
+		 <div class="div">
+		   <label>LAND MARK</label><span>*</span>
+           <br><br>
+		   <input type="text" id="lm" name="lm" placeholder="Your answer" required>
+	    </div>
+		   <br>
+		 <div class="div">
+		   <label>REMARKS/INTRUCTIONS</label><span>*</span>
+           <br><br>
+		   <input type="text" id="ri" name="ri" placeholder="Your answer" required>
+	    </div>
+		   <br>
+		   <input type="submit" style="color:white; background-color:#6600cc; padding:5px; width:70px; height:25px; border-radius:5px;">
+		   <input style="color:blue; background-color:#cccccc; float:right; border:none;" type="reset" value="Clear form">
+	</form>
+   </div>
+  </body>
+</html>
