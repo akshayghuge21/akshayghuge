@@ -1,3 +1,3 @@
 # akshayghuge
-Akshay Ghuge 
-HTML and CSS Design
+Web Design
+Front End Development
